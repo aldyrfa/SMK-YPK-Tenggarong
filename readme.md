@@ -20,7 +20,7 @@ Disini saya akan menjelaskan cara melakukan instalasi laravel "menggunakan compo
 
 - [Download XAMPP Versi Terbaru](https://www.apachefriends.org/download.html).
 - [Download Composser](https://getcomposer.org/Composer-Setup.exe).
--[Template AdminLTE 2.3.11](https://codeload.github.com/almasaeed2010/AdminLTE/zip/v2.3.11).
+- [Template AdminLTE 2.3.11](https://codeload.github.com/almasaeed2010/AdminLTE/zip/v2.3.11).
 
 2. Setelah instalasi XAMPP selesai, buka folder htdocs disini saya menyimpannya di (C:\xampp\htdocs),<br> 
 kemudian klik kanan pada sembarang tempat di dalam folder htdocs tersebut<br> 
@@ -33,15 +33,41 @@ Composer akan otomatis mendownload laravel  dan akan disimpan di folder belajarL
 
 ## Membuat CRUD dengan menggunakan Template AdminLTE
 
-Untuk proses pembuatan Aplikasi dapat mengikuti Tutorial yang diberikan oleh **Bapak Ferry Stephanus Suwita, S.Kom :**
+Untuk proses pembuatan Aplikasi ini, anda dapat mengikuti Tutorial yang diberikan oleh **Bapak Ferry Stephanus Suwita, S.Kom :**
 
 - **[Tutorial Laravel 5.7 - Integrate AdminLTE & Make Simple CRUD](https://drive.google.com/file/d/1AmexPu9OEQEz1cHfvVOHHIx3-47ml-Jm/view?usp=sharing)**
 - **[Tutorial Laravel - Eloquent Relationship](https://drive.google.com/file/d/1WpHAgdv4zVrgA-nV1u64Mbl31C65LyVC/view?usp=sharing)**
 - **[Tutorial Laravel – Login](https://drive.google.com/file/d/1wLjs3QIaYI3o9mIikLBJOluA_7QTm6rQ/view?usp=sharing)**
 - **[Tutorial Laravel - Upload File](https://drive.google.com/file/d/1-qb34ta4QJFzmekmiUAK84CzW6Cy7IXR/view?usp=sharing)**
 
-## Contributing
+## Cara Push Folder belajarLaravel ke Github menggunakan Git
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- [Download Git](https://git-scm.com/).
+- [Buat akun Github anda](https://github.com/).
+- [Buat repositories pada akun yang telah anda buat]
+
+Setelah proses instalasi selesai klik kanan pada folder yang akan di push ke github (disini saya coba untuk push folder belajarLaravel) kemudian pilih Git Bash Here
+
+1. Lakukan konfigurasi :
+git config --global user.name "masukkan username github anda" [enter]
+git config --global user.email "masukkan email github anda" [enter]
+
+2. Inisialisasi direktori local sebagai Repository Git.
+git init [enter]
+
+3. Menambahkan semua isi dari project yang telah dibuat (belajarLaravel).
+git add .
+
+4. git commit -m "isi", digunakan sebagai penanda jika ada file yang baru di ubah, contohnya
+git commit -m "first commit"
+
+5. Menambahkan remote didalam repository lokal
+git remote add origin remote repository URL [enter]
+Note: remote repository URL didapatkan di repository kita, <br>
+dibagian Clone or download maka akan muncul alamat url kemudian copy-paste ke git.
+
+6. Push dari lokal ke github
+git push origin master --force
+
 
 
