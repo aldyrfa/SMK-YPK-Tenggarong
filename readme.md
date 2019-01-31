@@ -48,26 +48,26 @@ Untuk proses pembuatan Aplikasi ini, anda dapat mengikuti Tutorial yang diberika
 
 Setelah proses instalasi selesai klik kanan pada folder yang akan di push ke github (disini saya coba untuk push folder belajarLaravel) kemudian pilih Git Bash Here
 
-1. Lakukan konfigurasi :
+**1. Lakukan konfigurasi :** <br>
 git config --global user.name "masukkan username github anda" [enter] <br>
 git config --global user.email "masukkan email github anda" [enter] <br>
 
-2. Inisialisasi direktori local sebagai Repository Git.<br>
+**2. Inisialisasi direktori local sebagai Repository Git.**<br>
 git init [enter]
 
-3. Menambahkan semua isi dari project yang telah dibuat (belajarLaravel).<br>
+**3. Menambahkan semua isi dari project yang telah dibuat (belajarLaravel).**<br>
 git add .
 
-4. git commit -m "isi", digunakan sebagai penanda jika ada file yang baru di ubah, contohnya <br>
+**4. git commit -m "isi", digunakan sebagai penanda jika ada file yang baru di ubah, contohnya** <br>
 git commit -m "first commit"
 
-5. Menambahkan remote didalam repository lokal <br>
+**5. Menambahkan remote didalam repository lokal** <br>
 git remote add origin remote repository URL [enter] <br>
 Note: remote repository URL didapatkan di repository kita, <br>
 dibagian Clone or download maka akan muncul alamat url kemudian copy-paste ke git.
 
-6. Push dari lokal ke github <br>
-git push origin master --force
+**6. Push dari lokal ke github** <br>
+git push origin master --force [enter]
 
 
 
