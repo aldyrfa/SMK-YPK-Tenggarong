@@ -40,7 +40,7 @@ Untuk proses pembuatan Aplikasi ini, anda dapat mengikuti Tutorial yang diberika
 - **[Tutorial Laravel – Login](https://drive.google.com/file/d/1wLjs3QIaYI3o9mIikLBJOluA_7QTm6rQ/view?usp=sharing)**
 - **[Tutorial Laravel - Upload File](https://drive.google.com/file/d/1-qb34ta4QJFzmekmiUAK84CzW6Cy7IXR/view?usp=sharing)**
 
-## Cara Push Folder belajarLaravel ke Github menggunakan Git
+## Cara Push Folder lokal ke Github menggunakan Git
 
 - [Download Git](https://git-scm.com/).
 - [Buat akun Github anda](https://github.com/).
@@ -49,24 +49,24 @@ Untuk proses pembuatan Aplikasi ini, anda dapat mengikuti Tutorial yang diberika
 Setelah proses instalasi selesai klik kanan pada folder yang akan di push ke github (disini saya coba untuk push folder belajarLaravel) kemudian pilih Git Bash Here
 
 1. Lakukan konfigurasi :
-git config --global user.name "masukkan username github anda" [enter]
-git config --global user.email "masukkan email github anda" [enter]
+git config --global user.name "masukkan username github anda" [enter] <br>
+git config --global user.email "masukkan email github anda" [enter] <br>
 
-2. Inisialisasi direktori local sebagai Repository Git.
+2. Inisialisasi direktori local sebagai Repository Git.<br>
 git init [enter]
 
-3. Menambahkan semua isi dari project yang telah dibuat (belajarLaravel).
+3. Menambahkan semua isi dari project yang telah dibuat (belajarLaravel).<br>
 git add .
 
-4. git commit -m "isi", digunakan sebagai penanda jika ada file yang baru di ubah, contohnya
+4. git commit -m "isi", digunakan sebagai penanda jika ada file yang baru di ubah, contohnya <br>
 git commit -m "first commit"
 
-5. Menambahkan remote didalam repository lokal
-git remote add origin remote repository URL [enter]
+5. Menambahkan remote didalam repository lokal <br>
+git remote add origin remote repository URL [enter] <br>
 Note: remote repository URL didapatkan di repository kita, <br>
 dibagian Clone or download maka akan muncul alamat url kemudian copy-paste ke git.
 
-6. Push dari lokal ke github
+6. Push dari lokal ke github <br>
 git push origin master --force
 
 
