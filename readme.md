@@ -44,7 +44,7 @@ Untuk proses pembuatan Aplikasi ini, anda dapat mengikuti Tutorial yang diberika
 
 - [Download Git](https://git-scm.com/).
 - [Buat akun Github anda](https://github.com/).
-- [Buat repositories pada akun yang telah anda buat]
+- Buat repositories pada akun yang telah anda buat
 
 Setelah proses instalasi selesai klik kanan pada folder yang akan di push ke github (disini saya coba untuk push folder belajarLaravel) kemudian pilih Git Bash Here
 
