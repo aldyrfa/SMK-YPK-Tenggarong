@@ -27,7 +27,7 @@ kemudian klik kanan pada sembarang tempat di dalam folder htdocs tersebut<br>
 Pilih : Open command windows here untuk membuka command prompt pada folder htdocs.<br>
 Pastikan laptop anda terhubung ke internet.<br>
 Ketik command berikut : composer create-project --prefer-dist laravel/laravel belajarLaravel "5.7.*"<br>
-**Note: belajarLaravel adalah nama folder untuk menyimpan package_package laravel yang akan didownload.**
+**Note: belajarLaravel adalah nama folder untuk menyimpan package-package laravel yang akan didownload.**
 Composer akan otomatis mendownload laravel  dan akan disimpan di folder belajarLaravel
 
 
