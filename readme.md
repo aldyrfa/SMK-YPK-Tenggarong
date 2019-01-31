@@ -33,7 +33,7 @@ Composer akan otomatis mendownload laravel  dan akan disimpan di folder belajarL
 
 ## Membuat CRUD dengan menggunakan Template AdminLTE
 
-Untuk proses pembuatan Aplikasi ini, anda dapat mengikuti Tutorial yang diberikan oleh **Bapak Ferry Stephanus Suwita, S.Kom :**
+Untuk proses pembuatan Aplikasi ini, anda dapat mengikuti Tutorial yang diberikan oleh **Bapak Ferry Stephanus Suwita, S.Kom**, yaitu sebagai berikut :
 
 - **[Tutorial Laravel 5.7 - Integrate AdminLTE & Make Simple CRUD](https://drive.google.com/file/d/1AmexPu9OEQEz1cHfvVOHHIx3-47ml-Jm/view?usp=sharing)**
 - **[Tutorial Laravel - Eloquent Relationship](https://drive.google.com/file/d/1WpHAgdv4zVrgA-nV1u64Mbl31C65LyVC/view?usp=sharing)**
