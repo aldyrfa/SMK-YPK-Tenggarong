@@ -22,7 +22,7 @@ Disini saya akan menjelaskan cara melakukan instalasi laravel "menggunakan compo
 - [Download Composser](https://getcomposer.org/Composer-Setup.exe).
 - [Template AdminLTE 2.3.11](https://codeload.github.com/almasaeed2010/AdminLTE/zip/v2.3.11).
 
-2. Setelah instalasi XAMPP selesai, buka folder htdocs disini saya menyimpannya di (C:\xampp\htdocs),<br> 
+2. Setelah instalasi XAMPP dan Composer selesai, buka folder htdocs disini saya menyimpannya di (C:\xampp\htdocs),<br> 
 kemudian klik kanan pada sembarang tempat di dalam folder htdocs tersebut<br> 
 Pilih : Open command windows here untuk membuka command prompt pada folder htdocs.<br>
 Pastikan laptop anda terhubung ke internet.<br>
